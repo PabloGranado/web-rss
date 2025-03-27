@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exploradores del Universo</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header>
@@ -16,19 +15,33 @@
                 <li><a href="blog/index.html">Blog</a></li>
                 <li><a href="podcast/index.html">Podcast</a></li>
             </ul>
-            <button class="menu-toggle">☰</button>
         </nav>
     </header>
     <main>
-        <h2>Bienvenidos al fascinante mundo del espacio</h2>
-        <p>Descubre las últimas noticias sobre astronomía, exploración espacial y teorías del cosmos.</p>
-        <p>Explora nuestros artículos y escucha nuestro podcast para mantenerte al día con los descubrimientos más emocionantes del universo.</p>
+        <section class="intro">
+            <img src="/blog/images/universo-e1551279319307-800x400.jpg" width="700" height="" alt="Imagen del universo" class="banner-image">
+            <p>Bienvenidos a Exploradores del Universo, tu fuente de información sobre astronomía, astrofísica y la exploración espacial. Descubre con nosotros los misterios del cosmos.</p>
+        </section>
+        
+        <section class="latest">
+            <h2>Últimos artículos</h2>
+            <ul>
+                <li><a href="blog/posts/post1.html">Descubriendo nuevos exoplanetas</a></li>
+                <li><a href="blog/posts/post2.html">El misterio de la materia oscura</a></li>
+                <li><a href="blog/posts/post3.html">Exploración de Marte: Perspectivas futuras</a></li>
+            </ul>
+        </section>
+        
+        <section class="podcast">
+            <h2>Últimos episodios del Podcast</h2>
+            <p>Escucha nuestras discusiones sobre los temas más apasionantes del espacio.</p>
+            <a href="podcast/index.html" class="button">Ir al Podcast</a>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Exploradores del Universo</p>
-        <a href="feed/rss.xml">Suscribirse al Blog (RSS)</a> |
-        <a href="feed/podcast.xml">Suscribirse al Podcast (RSS)</a> |
-        <a href="feed/opml.xml">OPML</a>
+        <a href="feed/rss.xml">Suscribirse al Blog (RSS)</a>
     </footer>
 </body>
 </html>
+
