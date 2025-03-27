@@ -1,1 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Exploradores del Universo - Blog</title>
+        <link>https://github.com/PabloGranado/web-rss/tree/main/blog/</link>
+        <description>Últimos artículos sobre astronomía, astrofísica y exploración espacial.</description>
+        <language>es</language>
+        <copyright>2025 Exploradores del Universo</copyright>
+        
+        <item>
+            <title>Descubriendo nuevos exoplanetas</title>
+            <link>https://github.com/PabloGranado/web-rss/blob/main/blog/posts/post1.html</link>
+            <description>Exploramos los métodos de detección y las posibilidades de vida en otros mundos.</description>
+            <pubDate>Mon, 10 Mar 2025 10:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>El misterio de la materia oscura</title>
+            <link>https://github.com/PabloGranado/web-rss/blob/main/blog/posts/post2.html</link>
+            <description>Profundizamos en una de las incógnitas más grandes del cosmos.</description>
+            <pubDate>Mon, 17 Mar 2025 10:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>Exploración de Marte: Perspectivas futuras</title>
+            <link>https://github.com/PabloGranado/web-rss/blob/main/blog/posts/post3.html</link>
+            <description>Analizamos cuándo y cómo llegará el ser humano a Marte.</description>
+            <pubDate>Mon, 24 Mar 2025 10:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
