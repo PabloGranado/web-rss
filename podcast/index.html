@@ -1,34 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podcast - Exploradores del Universo</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Podcast Exploradores del Universo</h1>
+        <h1>Podcast - Exploradores del Universo</h1>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="index.html">Podcast</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h2>Episodios recientes</h2>
-        <ul>
-            <li>
-                <h3>Episodio 1: Vida en otros planetas</h3>
+        <h2>Escucha nuestros episodios</h2>
+        <p>Bienvenidos a nuestro podcast, donde exploramos los misterios del universo con entrevistas, noticias y análisis de los últimos descubrimientos.</p>
+        
+        <section class="podcast-list">
+            <article>
+                <h3>Episodio 1: Descubriendo nuevos exoplanetas</h3>
                 <audio controls>
                     <source src="../assets/audio/episodio1.mp3" type="audio/mpeg">
-                    Tu navegador no soporta la reproducción de audio.
+                    Tu navegador no soporta el elemento de audio.
                 </audio>
-            </li>
-        </ul>
+            </article>
+            
+            <article>
+                <h3>Episodio 2: El misterio de la materia oscura</h3>
+                <audio controls>
+                    <source src="https://github.com/PabloGranado/web-rss/blob/main/podcast/episodios/que_es_la_materia_oscura.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </article>
+            
+            <article>
+                <h3>Episodio 3: Exploración de Marte</h3>
+                <audio controls>
+                    <source src="../assets/audio/episodio3.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </article>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Exploradores del Universo</p>
-        <a href="../feed/podcast.xml">Suscribirse al Podcast (RSS)</a>
+        <a href="../feed/rss.xml">Suscribirse al Podcast (RSS)</a>
     </footer>
 </body>
 </html>
