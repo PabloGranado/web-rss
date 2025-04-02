@@ -1,46 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" 
-     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
-     xmlns:atom="http://www.w3.org/2005/Atom">
-  
-  <channel>
-      <title>Exploradores del Universo - Podcast</title>
-      <link>https://pablogranado.github.io/web-rss/podcast/</link>
-      <atom:link href="https://pablogranado.github.io/web-rss/feed/podcast.xml" rel="self" type="application/rss+xml"/>
-      <description>Podcast sobre astronomía, astrofísica y exploración espacial.</description>
-      <language>es</language>
-      <copyright>2025 Exploradores del Universo</copyright>
-      <itunes:category text="Science">
-          <itunes:category text="Astronomy"/>
-      </itunes:category>
-      <itunes:explicit>no</itunes:explicit>
-      <itunes:email>contacto@exploradoresuniverso.com</itunes:email>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:atom="http://www.w3.org/2005/Atom">
 
-      <item>
-          <title>Episodio 1: Descubriendo nuevos exoplanetas</title>
-          <link>https://pablogranado.github.io/web-rss/podcast/episodio1.html</link>
-          <description>Exploramos los métodos de detección y las posibilidades de vida en otros mundos.</description>
-          <enclosure url="https://pablogranado.github.io/web-rss/assets/audio/episodio1.mp3" type="audio/mpeg" length="52428800"/>
-          <pubDate>Mon, 10 Mar 2025 10:00:00 GMT</pubDate>
-          <guid isPermaLink="false">episodio1-2025</guid>
-      </item>
+ <channel>
+     <title>Exploradores del Universo - Podcast</title>
+     <link>https://pablogranado.github.io/web-rss/podcast/</link>
+     <atom:link href="https://pablogranado.github.io/web-rss/feed/podcast.xml" rel="self" type="application/rss+xml"/>
+     <description>Podcast sobre astronomía, astrofísica y exploración espacial.</description>
+     <language>es</language>
+     <copyright>2025 Exploradores del Universo</copyright>
 
-      <item>
-          <title>Episodio 2: El misterio de la materia oscura</title>
-          <link>https://pablogranado.github.io/web-rss/podcast/episodio2.html</link>
-          <description>Profundizamos en una de las incógnitas más grandes del cosmos.</description>
-          <enclosure url="https://pablogranado.github.io/web-rss/assets/audio/episodio2.mp3" type="audio/mpeg" length="41943040"/>
-          <pubDate>Mon, 17 Mar 2025 10:00:00 GMT</pubDate>
-          <guid isPermaLink="false">episodio2-2025</guid>
-      </item>
+     <itunes:category text="Education"/>
 
-      <item>
-          <title>Episodio 3: Exploración de Marte</title>
-          <link>https://pablogranado.github.io/web-rss/podcast/episodio3.html</link>
-          <description>Analizamos cuándo y cómo llegará el ser humano a Marte.</description>
-          <enclosure url="https://pablogranado.github.io/web-rss/assets/audio/episodio3.mp3" type="audio/mpeg" length="62914560"/>
-          <pubDate>Mon, 24 Mar 2025 10:00:00 GMT</pubDate>
-          <guid isPermaLink="false">episodio3-2025</guid>
-      </item>
-  </channel>
+     <itunes:owner>
+         <itunes:name>Exploradores del Universo</itunes:name>
+         <itunes:email>contacto@exploradoresuniverso.com</itunes:email>
+     </itunes:owner>
+
+     <itunes:explicit>no</itunes:explicit>
+
+     <item>
+         <title>Episodio 1: Descubriendo nuevos exoplanetas</title>
+         <link>https://pablogranado.github.io/web-rss/podcast/episodio1.html</link>
+         <description>Exploramos los métodos de detección y las posibilidades de vida en otros mundos.</description>
+         <enclosure url="https://pablogranado.github.io/web-rss/assets/audio/episodio1.mp3" type="audio/mpeg" length="52428800"/>
+         <pubDate>Mon, 10 Mar 2025 10:00:00 GMT</pubDate>
+         <guid isPermaLink="false">episodio1-2025</guid>
+     </item>
+
+     <item>
+         <title>Episodio 2: El misterio de la materia oscura</title>
+         <link>https://pablogranado.github.io/web-rss/podcast/episodio2.html</link>
+         <description>Profundizamos en una de las incógnitas más grandes del cosmos.</description>
+         <enclosure url="https://pablogranado.github.io/web-rss/assets/audio/episodio2.mp3" type="audio/mpeg" length="41943040"/>
+         <pubDate>Mon, 17 Mar 2025 10:00:00 GMT</pubDate>
+         <guid isPermaLink="false">episodio2-2025</guid>
+     </item>
+
+     <item>
+         <title>Episodio 3: Exploración de Marte</title>
+         <link>https://pablogranado.github.io/web-rss/podcast/episodio3.html</link>
+         <description>Analizamos cuándo y cómo llegará el ser humano a Marte.</description>
+         <enclosure url="https://pablogranado.github.io/web-rss/assets/audio/episodio3.mp3" type="audio/mpeg" length="62914560"/>
+         <pubDate>Mon, 24 Mar 2025 10:00:00 GMT</pubDate>
+         <guid isPermaLink="false">episodio3-2025</guid>
+     </item>
+ </channel>
 </rss>
