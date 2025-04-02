@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
-    <head>
-        <title>Exploradores del Universo - Feeds</title>
-        <dateCreated>Tue, 25 Mar 2025 10:00:00 GMT</dateCreated>
-    </head>
-    <body>
-        <outline text="Exploradores del Universo - Blog" type="rss" xmlUrl="https://github.com/PabloGranado/web-rss/blob/main/feed/rss.xml" htmlUrl="https://github.com/PabloGranado/web-rss/tree/main/blog/" />
-        <outline text="Exploradores del Universo - Podcast" type="rss" xmlUrl="https://github.com/PabloGranado/web-rss/blob/main/feed/podcast.xml" htmlUrl="https://github.com/PabloGranado/web-rss/tree/main/podcast/" />
-    </body>
+   <head>
+       <title>Exploradores del Universo - Feeds</title>
+       <dateCreated>Tue, 25 Mar 2025 10:00:00 GMT</dateCreated>
+   </head>
+   <body>
+       <outline text="Exploradores del Universo - Blog" title="Exploradores del Universo - Blog" type="rss" xmlUrl="https://github.com/PabloGranado/web-rss/blob/main/feed/rss.xml" htmlUrl="https://github.com/PabloGranado/web-rss/tree/main/blog/" />
+       <outline text="Exploradores del Universo - Podcast" title="Exploradores del Universo - Podcast" type="rss" xmlUrl="https://github.com/PabloGranado/web-rss/blob/main/feed/podcast.xml" htmlUrl="https://github.com/PabloGranado/web-rss/tree/main/podcast/" />
+   </body>
 </opml>
